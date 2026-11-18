@@ -1,0 +1,9 @@
+An AI agent uses a model to work toward a task, often by choosing and using tools.
+
+A tool is a function that lets the agent interact with something outside the model, such as searching a file or saving a question.
+
+A tool call is a request from the model for the application to run a particular tool. The application runs it and returns the result to the model.
+
+Evaluation means checking agent behavior against example tasks, including whether it chooses the right tool and handles missing information appropriately.
+
+Guardrails are limits or checks that help keep an agent's actions within intended boundaries.
